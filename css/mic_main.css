@@ -2510,8 +2510,8 @@ header {
         top: 0;
         width: 48%;
         height: 100%;
-        margin-left: 2em;
-        margin-right: 1em;
+        margin-left: 1.5em;
+        margin-right: 0.5em;
         float: left;
         font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
     }
