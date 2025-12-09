@@ -190,11 +190,18 @@
             </p>
             <p><br></p>
             <p id='contactor'>联系人：陈思明（simingchen3@gmail.com、simingchen@fudan.edu.cn）</p>
-            <a class='QRCode' onmouseover='hover()' onmouseout='after()'>
-                微信公众号：FDUVIS可视分析与智能决策实验室
+            <a class='QRCode' onmouseover='hover()' onmouseout='after()' style="margin-right: 10px;">
                 <img id='QRicon' src="/images/wechat.png" alt="" />
+                微信公众号
                 <div id='QRimg'>
                     <img class='QRimg ' src="/images/qrcode.png" alt="" />
+                </div>
+            </a>
+            <a class='QRCode' onmouseover='hover_xhs()' onmouseout='after_xhs()'>
+                <img id='QRicon_xhs' src="/images/xiaohongshu-icon.png" alt="" />
+                小红书
+                <div id='QRimg_xhs'>
+                    <img class='QRimg' src="/images/xiaohongshu-qrcode.png" alt="" />
                 </div>
             </a>
 
@@ -215,8 +222,18 @@
         obj.style.display = 'flex'
     }
 
+    function hover_xhs() {
+        obj = document.getElementById("QRimg_xhs");
+        obj.style.display = 'flex'
+    }
+
     function after() {
         obj = document.getElementById("QRimg");
+        obj.style.display = 'none'
+    }
+
+    function after_xhs() {
+        obj = document.getElementById("QRimg_xhs");
         obj.style.display = 'none'
     }
 </script>
